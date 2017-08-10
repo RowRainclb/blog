@@ -483,7 +483,7 @@ canvas_nest: false
 # Please use the https protocol of CDN files when you enable https on your site.
 vendors:
   # Internal path prefix. Please do not edit it.
-  _internal: lib
+  _internal: clb
 
   # Internal version: 2.1.3
   jquery:
