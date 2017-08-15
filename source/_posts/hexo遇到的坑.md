@@ -21,3 +21,33 @@ github+hexo搭建
 原来是因为我本地为了好看把访问地址改为了/http://localhost:4000/blog
 打开_config.yml文件,修改root:/blog 为 root: /，问题解决
 
+坑2：
+换了台机器，从github pull下来代码，安装git,node,hexo后，启动hexo s,显示启动成功
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+但是界面访问显示404  Cannot GET /
+解决：
+有网友说进行如下操作即可
+npm install
+试了之后不行，有网友说进行如下操作即可：
+sudo npm install hexo-renderer-ejs --save
+sudo npm install hexo-renderer-stylus --save
+sudo npm install hexo-renderer-marked --save
+这个时候再重新生成静态文件，命令：hexo g 启动：hexo s
+试了还是不行，应该还是哪些包关联出了问题，最后还是init了新文件，
+把除了node_modules文件外的文件都复制过来即可：
+步骤：
+1. hexo init <folder>
+2. cd folder
+3. npm install
+4. npm install hexo-server --save
+5. 把之前的除掉node_modules文件外的文件复制过来(或者把node_modules文件夹替换之前的node_modules文件夹)
+6. npm server
+上述操作亲测可行，后来发现不用这么复杂
+步骤：
+sudo npm install
+sudo npm install hexo-server --save
+这样也是可以的
+
+
+
