@@ -2,6 +2,9 @@
 title: aws在java中使用
 date: 2017-08-22 17:01:57
 tags:
+    - aws
+    - dynamodb
+    - java
 ---
 一 AWS DynamoDb在java中的使用【建立连接】
 ``` javascript

@@ -2,6 +2,9 @@
 title: 从前端直接往aws上传文件总结
 date: 2016-10-22 12:36:14
 tags:
+    - aws 
+    - s3
+    - javascript
 ---
 AWS S3 javascript上传文件
 1 To upload the file successfully, you need to enable CORS configuration on S3.

@@ -2,6 +2,7 @@
 title: hive beeline操作遇到的问题
 date: 2016-06-22 16:27:56
 tags:
+    - hive
 ---
 1 Org.apache.hadoop.hive.service.ThriftHive
 ![](hive-beeline操作遇到的问题/hive1.jpg)

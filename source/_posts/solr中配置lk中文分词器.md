@@ -2,6 +2,9 @@
 title: solr中配置lk中文分词器
 date: 2014-11-22 13:50:20
 tags:
+    - solr
+    - lk
+    - 分词
 ---
 配置IK中文分词器
 以collection1为例。

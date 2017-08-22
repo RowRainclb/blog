@@ -1,9 +1,11 @@
 ---
 title: 在ubuntu14.04单机安装配置zookeeper和kafka
 date: 2017-03-12 17:26:49
-tags:
+tags: 
+    - zookeeper
+    - kafka
 ---
-# ubuntu14.04单机安装配置zookee和kafka
+# ubuntu14.04单机安装配置zookeeper和kafka
 
 为了方便以后扩展分布式的需要，运用Apache Kafka这个分布式消息发布订阅系统。Apache kafka的详细介绍详见官网
 运行Apache Kafka，需要先安装好jdk和zookeeper。jdk安装过程就不赘述了。
