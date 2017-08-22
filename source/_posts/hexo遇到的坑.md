@@ -1,6 +1,6 @@
 ---
 title: hexo遇到的坑
-date: 2017-08-10 17:11:46
+date: 2014-11-10 17:11:46
 tags:
     - hexo
     - github
