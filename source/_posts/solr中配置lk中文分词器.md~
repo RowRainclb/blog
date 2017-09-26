@@ -19,7 +19,7 @@ tags:
 ```
 4.	将scheme.xml中的<field>名称为“title”的type类型改为”text_ik“。
 5.	重启solr服务器，在地址栏中执行http://localhost:8080/solr/#/collection1/analysis <http://localhost:8080/solr/>，随便输入一句话，进行测试：
- ![](lk.png)
+ ![](solr中配置lk中文分词器/lk.png)
 出现以上界面，说明分词器配置成功。
 
 

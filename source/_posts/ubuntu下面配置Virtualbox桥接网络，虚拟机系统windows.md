@@ -35,17 +35,17 @@ sudo gpasswd -a vboxuser uml-net
   高级：混杂模式选择全部运行
   勾选下面的连接网线
   点击确定
-![](ubuntu下面配置Virtualbox桥接网络，虚拟机系统windows/1.jpg)
+![](1.jpg)
 
 4  windows设置静态ip
   进入windows虚拟系统
   点击控制面板---查看方式选择类别---点击网络和Internet---点击网络和共享中心---更改网络适配器---右键网络属性
-  ![](ubuntu下面配置Virtualbox桥接网络，虚拟机系统windows/2.jpg)
+  ![](2.jpg)
 
   双击TCP/IPV4,点击使用下面的ip地址，配置静态ip
   注意：
   ip地址和本机服务器在同一网段（只要最后一位不同即可），其他配置和本机服务器一致
- ![](ubuntu下面配置Virtualbox桥接网络，虚拟机系统windows/3.jpg)
+ ![](3.jpg)
 
 
   这样主机和虚拟机就成了局域网中地位相同的两台机器了，可以互相访问了。

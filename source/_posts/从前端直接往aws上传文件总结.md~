@@ -32,7 +32,7 @@ http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html
 	<AllowedHeader>*</AllowedHeader>
 	</CORSRule></CORSConfiguration>
 ```
- ![](1.jpg)
+ ![](从前端直接往aws上传文件总结/1.jpg)
 
 
 3  Set the Aws Config in jsp like this:
